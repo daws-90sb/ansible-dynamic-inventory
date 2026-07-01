@@ -5,4 +5,5 @@ regions:
 
 hostnames:
  # This option allows us to display the public ip addresses
- - ip-address
+ #- ip-address
+  - private-ip-address
