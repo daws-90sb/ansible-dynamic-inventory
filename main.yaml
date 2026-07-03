@@ -1,6 +1,7 @@
 - name: configure frontend server
   hosts: roboshop_frontend
   become: yes
+  serial: 2
   tasks:
   - name: ping
     ping:
